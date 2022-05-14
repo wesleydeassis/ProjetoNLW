@@ -6,6 +6,8 @@
   --primary-color:hsl(170, 100%, 26%);
   --headline:hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
+  --brand-beige:hsl(39, 100%, 97%);
+  ;
 
 
   font-size:62.5; /* 1rem passa a ser 10px */
@@ -22,28 +24,67 @@ header{
   width:37.5rem;
   margin-right: auto;
   margin-left: auto;
-  
-  padding-right: 2rem;
-  padding-left: 2rem;
+
+  margin: top 4.1rem;
 }
 
 h4{
   font-size:1.4rem;
   Color: var(--primary-color);
+  margin-bottom: 1.6rem;
+
 }
 
   h1{
     font-size:3.4rem;
     Color: var(--headline);
     line-height: 130%;
+
+    margin-bottom: 2.4rem; ;
   }
 
   p{
     font-size:1.8rem;
     line-height: 150%;
-    color:var(--paragraph)
+    color:var(--paragraph);
+    margin-bottom: 3.2rem; 
   }
 
   button{
     background:var(--primary-color);
+    border:none;
+    margin-bottom: 6rem;
+
+    border-radius: 4rem;
+   
+
+    height:6.2rem;
+    width:26.3rem;
+
+    color:#fff;
+    text-transform: uppercase;
+    font-size:1.4rem;
+    font-weight:700;
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:1.6rem;
+
+    margin-right: auto;
+    margin-left: auto;
   }
+   .stats{
+
+    width: 32.7rem;
+    height: 47rem;
+    margin-inline: auto;
+    background-color: var(--brand-beige);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+
+
+  
